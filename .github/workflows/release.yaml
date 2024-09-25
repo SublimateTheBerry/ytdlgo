@@ -24,6 +24,13 @@ jobs:
           echo "Downloading ytdlgo.go..."
           cp ytdlgo.go $GITHUB_WORKSPACE/
 
+      - name: Install dependencies
+        run: |
+          echo "Installing dependencies..."
+          go mod init ytdlgo
+          go get github.com/kkdai/youtube/v2
+          go get github.com/schollz/progressbar/v3
+
       - name: Build the application
         run: |
           echo "Building the application..."
