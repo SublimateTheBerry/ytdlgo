@@ -24,13 +24,16 @@ Usage:
 1. Install Go on your system if you haven't already.
 2. Clone this repository or download the `ytdlgo.go` file.
 3. Open a terminal and navigate to the directory containing the `ytdlgo.go` file.
-4. Run the following command, replacing `<URL>` with the URL of the YouTube video you want to download:
+4. Run the following commands:
 
    ```
-   go run ytdlgo.go <URL>
+   go mod init ytdlgo
+   go get github.com/kkdai/youtube/v2
+   go get github.com/schollz/progressbar/v3
+   go build -o ytdlgo ytdlgo.go
    ```
 
-   The downloaded video will be saved in the same directory as the `ytdlgo.go` file, with the filename being the title of the video.
+   After that, go to [📥 Releases](#-releases) and see Usage
 
 ## 📦 Dependencies
 
