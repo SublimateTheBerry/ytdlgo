@@ -2,6 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Go-1.22.7-blue.svg" alt="Go Version">
+  <img src="https://img.shields.io/github/release-date/SublimatedBerry/ytdlgo" alt="Release date">
 </p>
 
 <p align="center">
