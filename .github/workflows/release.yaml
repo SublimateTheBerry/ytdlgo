@@ -19,11 +19,6 @@ jobs:
         with:
           go-version: '1.22.7'
 
-      - name: Download ytdlgo.go
-        run: |
-          echo "Downloading ytdlgo.go..."
-          cp ytdlgo.go $GITHUB_WORKSPACE/
-
       - name: Install dependencies
         run: |
           echo "Installing dependencies..."
