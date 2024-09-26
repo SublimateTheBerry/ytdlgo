@@ -35,15 +35,6 @@ Usage:
 
    After that, go to [📥 Releases](#-releases) and see Usage
 
-## 📦 Dependencies
-
-This project uses the following dependencies:
-
-- github.com/kkdai/youtube/v2 - A Go library for downloading YouTube videos.
-- github.com/schollz/progressbar/v3 - A Go library for displaying a progress bar during the download.
-
-These dependencies will be automatically downloaded and installed when you run the `go mod tidy` command.
-
 ## 📄 License
 
 This project is licensed under the [modified MIT License](LICENSE).
