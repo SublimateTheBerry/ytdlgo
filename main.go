@@ -1,4 +1,4 @@
-package ytdlgo
+package main
 
 import (
 	"fmt"
