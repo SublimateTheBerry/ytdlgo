@@ -20,7 +20,7 @@ MacOS, Linux:
 chmod +x ./ytdlgo
 ./ytdlgo <URL>
 ```
-Windows
+Windows:
 
 `ytdlgo <URL>`
 
