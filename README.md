@@ -22,7 +22,9 @@ chmod +x ./ytdlgo
 ```
 Windows:
 
-`ytdlgo <URL>`
+```
+ytdlgo <URL>
+```
 
 ## 🚀 Build from source
 
